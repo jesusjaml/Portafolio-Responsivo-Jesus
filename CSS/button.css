@@ -1,0 +1,21 @@
+.button {
+    padding: 13px 24px;
+    text-align: center;
+    font: var(--button);
+    letter-spacing: 1.25px;
+    color: var(--white);
+    background: var(--black);
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.secundary {
+    background: none;
+    color: var(--black);
+    border: 2px solid var(--black);
+    cursor: pointer;
+}
+

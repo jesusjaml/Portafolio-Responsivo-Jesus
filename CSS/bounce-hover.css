@@ -1,0 +1,34 @@
+.scale-hover {
+    transition: transform .2s;
+}
+
+.scale-hover:hover {
+    transform: scale(1.2);
+}
+
+.hero-social a:hover {
+    opacity: 1;
+}
+
+
+/* .button:hover {
+    background: none;
+} */
+
+.testimonials-button:hover {
+    animation: bounce 0.65s linear
+}
+@keyframes bounce {
+    20%{
+        transform: translatey(2rem);
+    }
+    40%{
+        transform: translatey(3rem);
+    }
+    80%{
+        transform: translatey(-0.1rem);
+    }
+    100%{
+        transform: translatey(0rem);
+    }
+} 

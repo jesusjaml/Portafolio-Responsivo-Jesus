@@ -1,0 +1,26 @@
+.testimonials-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    padding-block-end: 80px;
+}
+
+.testimonials-intro p {
+    font: var(--testimonials);
+}
+
+.testimonials-intro span.headline5 {
+    font: var(--headline5);
+}
+
+.testimonials-button  {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonials-intro p {
+        margin: auto;
+        max-inline-size: 700px;
+    }
+}
